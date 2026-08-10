@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pendalaman HTML</title>
+  </head>
+  <body>
+    <!--Elemen Paragraph-->
+    <p>
+      Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya
+      sungai citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk
+      telaga...
+    </p>
+
+    <p>
+      Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat
+      Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur
+      karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan
+      atau bersaksi...
+    </p>
+
+    <!--Elemen Paragraph di gabung dengan Elemen inline-->
+    <p>
+      Ini merupakan gambar dari history dari kota bandung :
+      <img src="assets/image/history.jpg" alt="Gambar history" />
+    </p>
+    <p>
+      Ini merupakan gambar dari history dari kota bandung :
+      <input type="text" placeholder="Ketik Sesuatu di sini!" />
+    </p>
+
+    <!--Elemen Heading-->
+
+    <!--Elemen Heading level 1-->
+    <h1>Bandung</h1>
+
+    <!--Elemen Heading level 2-->
+    <h2>Geografis</h2>
+
+    <p>
+      Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi
+      wilayahnya bagaikan sebuah mangkok raksasa
+    </p>
+    <h2>Wisata</h2>
+    <p>
+      kota Bandung telah menjadi tujuan utama dalam menikmati liburan akhir
+      pekan terutama dari masyarakat yang berasal dari Jakarta sekitarnya.
+    </p>
+
+    <!--Elemen Heading level 3-->
+    <h3>Farm House Lembang</h3>
+
+    <!--Elemen Heading level 4-->
+    <h4>Lokasi</h4>
+    <p>
+      Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata
+      yang tidak pernah sepi pengunjung
+    </p>
+    <h4>Kondisi</h4>
+    <p>
+      Selain karena letaknya strategis, kawasan ini juga menghadirkan nuansa
+      wisata khas Eropa. Semu itu diterapkan dalam bentuk spot swafoto
+      Instagramable.
+    </p>
+    <h3>Observatorium Bosscha</h3>
+    <p>
+      Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt
+      Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya.
+    </p>
+
+    <!--Elemen Heading Sisa-->
+    <!--Elemen Heading level 5-->
+    <h5>Heading 5</h5>
+
+    <!--Elemen Heading level 6-->
+    <h6>Heading 6</h6>
+
+    <!--Tipe-tipe List :
+    1. Unordered lists : daftar yang di tampilkan tidak memiliki urutan
+    2. Ordered lists : daftar yang di tampilkan secara terurut
+    3. Description lists : daftar yang terbuat dari beberapa istilah diikuti dengan deskripsi dari istila tersebut.
+    -->
+
+    <!--Unordered lists-->
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <!--Contoh 1-->
+    <ul>
+      <li>
+        <h1>Sebuah <i>Heading</i> sebagai item list</h1>
+      </li>
+      <li><h2>Sebuah Heading level 2 sebagai item list</h2></li>
+      <li>
+        <p><b>Sebuah</b> paragraf sebagai item list</p>
+      </li>
+    </ul>
+
+    <!--Contoh 2-->
+    <ul>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>
+        List item 3
+        <ul>
+          <li>List item 3.1</li>
+          <li>List item 3.2</li>
+          <li>List item 3.3</li>
+        </ul>
+      </li>
+      <li>List Item 4</li>
+    </ul>
+
+    <!--Ordered lists-->
+    <ol>
+      <li><b>Langkah</b> pertama</li>
+      <li>Langkah <u>kedua</u></li>
+      <li><i>Langkah</i> ketiga</li>
+      <li>Langkah selanjutnya</li>
+    </ol>
+
+    <!--Contoh 1 dg Atribut type-->
+    <ol type="I">
+      <li>Langkah pertama</li>
+      <li>Langkah kedua</li>
+      <li>Langkah ketiga</li>
+      <li>Langkah selanjutnya</li>
+    </ol>
+
+    <ol type="A">
+      <li>Langkah pertama</li>
+      <li>Langkah kedua</li>
+      <li>Langkah ketiga</li>
+      <li>Langkah selanjutnya</li>
+    </ol>
+
+    <!--Contoh 2 Atribut start & reversed-->
+    <!--Atribut reversed tidak memerlukan nilai (value)-->
+    <ol start="7" reversed>
+      <li>Langkah ketujuh</li>
+      <li>Langkah kedelapan</li>
+      <li>Langkah kesembilan</li>
+      <li>langkah selanjutnya</li>
+    </ol>
+
+    <!--Elemen gambar-->
+    <!--Merupakan elemen kosong tanpa konten sehingga tidak memiliki tag penutup-->
+    <img
+      src="https://raw.githubusercontent.com/dicodingacademy/a123-webdasar-labs/099-shared-files/shared-media/dicoding-logo.jpg"
+      width="300px"
+      alt="Dicoding Logo"
+    />
+
+    <!--Jenis-jenis format gambar-->
+    <!--
+    1. .gif (Grapshics Interchange Format)
+    2. .jpg, .jpeg, .jfif, .pjpeg, .pjp (Joint Photographic Expert Group image)
+    3. .png (Portable Network Graphics)
+    4. .webp (WebP)
+    5. .svg (Scalable Vector Graphics)
+    -->
+
+    <!--Absolute URL & Relative URL-->
+    <!--
+    Absolut URL merupakan file gambar yang terletak di server lain. sedangkan 
+    Relative URL merupakan file gambar yang terletak di lokal dan tersimpan di dalam folder projek.
+    -->
+  </body>
+</html>
