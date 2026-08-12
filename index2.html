@@ -37,5 +37,74 @@
         <!--Konten footer website-->
       </footer>
     </body>
+
+    <!--Elemen Semantic Articles-->
+    <!--merupakan elemen yang tidak terkait dengan konten lain atau independent-->
+
+    <!--Elemen Semantic Aside-->
+    <!--merupakan elemen yang makna nya berbeda tergantung penempatannya.
+    ketika didalam elemen article, makna nya informasi tersebut berkaitan dengan artikel tersebut. sedangkan,
+    ketika di luar elemen article, makna nya informasi tersebut berhubungan dengan keseluruhan halaman.
+    -->
+
+    <main>
+      <article>
+        <!--....-->
+      </article>
+
+      <aside>
+        <article>
+          <header>
+            <h2>Kota Bandung</h2>
+            <p>Kota Kembang Paris van Java</p>
+            <figure>
+              <img src="assets/image/bandung-badge.png" />
+              <figcaption>Lambang</figcaption>
+            </figure>
+          </header>
+        </article>
+      </aside>
+    </main>
+
+    <!--Elemen Semantic Section-->
+    <!--merupakan elemen yang mengelompokkan konten yang memiliki kesamaan-->
+
+    <!--Generic Element-->
+    <!--merupakan elemen yang menggambarkan konten yang tidak memiliki makna-->
+
+    <!--2 generic element
+    1. Div
+    merupakan elemen wadah (container) yang bersifat umum untuk menampung beberapa konten.
+
+    2. Span
+    merupakan elemen wadah untuk menampung sebaris teks atau kata.
+    -->
+
+    <style>
+      .phone {
+        font-weight: bold;
+      }
+    </style>
+
+    <!--Elemen span-->
+    <ul>
+      <li>Agil: <span class="phone">08123xxx</span></li>
+      <li>Widy: <span class="phone">08222xxx</span></li>
+      <li>Gilang: <span class="phone">08333xxx</span></li>
+    </ul>
+
+    <style>
+      .bahan {
+        color: red;
+      }
+    </style>
+    <p>
+      Untuk membuat sebuah bakso kita membutuhkan
+      <span class="bahan">daging sapi</span>,
+      <span class="bahan">tepung tapioka</span>,
+      <span class="bahan">bawang merah</span> dan
+      <span class="bahan">bawang putih</span> kemudian satu sendok makan
+      <span class="bahan">gula</span> dan <span class="bahan">garam</span>
+    </p>
   </body>
 </html>
