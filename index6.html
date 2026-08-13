@@ -10,11 +10,11 @@
     <!--merupakan elemen yang menerima masukan dari user-->
     <div>
       Text:
-      <input type="text" />
+      <input type="text" pattern="[a-z]{2}" />
     </div>
     <div>
       Number:
-      <input type="number" />
+      <input type="number" min="1" max="10" />
     </div>
     <div>
       Email:
@@ -42,7 +42,7 @@
     </div>
     <div>
       Checkbox
-      <input type="checkbox" /> <br />
+      <input type="checkbox" value="Sakit" checked /> Sakit <br />
       Checkbox
       <input type="checkbox" /> <br />
       Checkbox
@@ -62,7 +62,7 @@
     </div>
     <div>
       File
-      <input type="file" />
+      <input type="file" multiple />
     </div>
     <div>
       Submit
@@ -80,5 +80,106 @@
         Belajar Dasar
         Pemrograman Web
     </textarea>
+
+    <div>
+      <label for="email">Email</label> <br />
+      <input type="email" id="email" />
+    </div>
+
+    <div>
+      <label for="password">Password</label> <br />
+      <input type="password" id="password" />
+    </div>
+
+    <!--Aribut Elemen Input-->
+
+    <!--Atribut Placeholder & Required-->
+    <div>
+      <label for="email">Email</label>
+      <br />
+      <input type="email" readonly id="email" placeholder="example@gmail.com" />
+
+      <div>
+        <label for="password">Password</label> <br />
+        <input type="password" id="password" placeholder="******" required />
+      </div>
+    </div>
+
+    <form>
+      <div>
+        <label for="email">Email</label>
+        <br />
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <br />
+        <input type="password" id="password" />
+      </div>
+
+      <button type="submit">submit</button>
+    </form>
+
+    <!--atribut action-->
+    <form action=".env.example">
+      <div>
+        <label for="fullName">Nama</label>
+        <input type="text" name="fullName" id="fullName" required />
+      </div>
+
+      <div>
+        <label for="checkIn">Tanggal Check-In</label>
+        <input type="date" name="checkIn" id="checkIn" required />
+      </div>
+
+      <div>
+        <label for="chekcOut">Tanggal Check-Out</label>
+        <input type="date" name="checkOut" id="chekcOut" required />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!--atribut method-->
+    <!--metode GET-->
+    <form method="GET" action="https://example.com/">
+      <div>
+        <label for="fullName">Nama</label>
+        <input type="text" name="fullName" id="fullName" required />
+      </div>
+
+      <div>
+        <label for="checkIn">Tanggal Check-In</label>
+        <input type="date" name="checkIn" id="checkIn" required />
+      </div>
+
+      <div>
+        <label for="chekcOut">Tanggal Check-Out</label>
+        <input type="date" name="checkOut" id="chekcOut" required />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!--metode POST-->
+    <form method="POST" action="https://example.com/">
+      <div>
+        <label for="fullName">Nama</label>
+        <input type="text" name="fullName" id="fullName" required />
+      </div>
+
+      <div>
+        <label for="checkIn">Tanggal Check-In</label>
+        <input type="date" name="checkIn" id="checkIn" required />
+      </div>
+
+      <div>
+        <label for="chekcOut">Tanggal Check-Out</label>
+        <input type="date" name="checkOut" id="chekcOut" required />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
