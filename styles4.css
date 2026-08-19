@@ -22,3 +22,28 @@ span {
 p.fancy {
     text-shadow: 4px 4px 3px #00c8eb;
 }
+
+/* simbol octothorpe (#)*/
+#special {
+    background-color: skyblue;
+}
+
+/*Example Attribute Selector*/
+ul {
+    font-size: 18px;
+}
+
+/* <a> elemen yang menerapkan href attribute */
+a[href] {
+    color: blue;
+}
+
+/* <a> elemen yang menerapkan nilai pada href dengan awalan "#" */
+a[href^='#'] {
+    background-color: gold;
+}
+
+/* <a>  elemen yang menerapkan nilai pada href yang mengandung teks "example"*/
+a[href*='example'] {
+    background-color: silver;
+}
