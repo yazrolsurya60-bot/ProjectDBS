@@ -19,7 +19,7 @@ a[href*='example'] {
 }
 
 /* <a> element yang menerapkan nilai pada href yang mengandung teks "insensitive" tidak mementingkan huruf kapital*/
-a[href*='insensitive'] {
+a[href*='insensitive' i] {
     color: cyan;
 }
 
