@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Combinators</title>
+
+    <link rel="stylesheet" href="styles6.css" />
+  </head>
+  <body>
+    <!--terdapat 4 jenis kombinator :
+        1. Adjacent Sibling Selector
+        2. General Sibling Selector
+        3. Child Selector
+        4. Descendant Selector
+    -->
+
+    <!--Adjacent Sibling Selector-->
+    <p>
+      Ini merupakan paragraf pertama. Rule styling tidaka akan diterapkan pada
+      elemen paragraf ini.
+    </p>
+    <img
+      src="https://raw.githubusercontent.com/dicodingacademy/a123-webdasar-labs/099-shared-files/shared-media/g-dicoding-logo.png"
+      alt="g Dicoding Logo"
+      width="400px"
+    />
+    <p>
+      Ini merupakan paragrak kedua dan ditetapkan setelah elemen gambar. Maka
+      paragraf ini seharusnya menerapkan rule dengan menampilkan teks berwarna
+      hijau.
+    </p>
+    <p>
+      Ini merupakan paragraf ketiga. Letaknya memang setelah elemen gambar,
+      namun, Tidak diletakkan persis setelahnya, sehingga rule tidak akan
+      diterapkan pada elemen ini.
+    </p>
+
+    <!--General Sibling Selector-->
+    <p>
+      Ini merupakan paragraf pertama. Rule styling tidak akan diterapkan paa
+      elemen paragraf ini.
+    </p>
+    <img src="assets/image/bandung-badge.png" alt="Logo Persib" width="400px" />
+  </body>
+  <p>
+    Ini merupakan paragraf kedua dan ditetapkan setelaah elemen gambar. Maka
+    paragraf ini menerapkan rule dengan menampilkan teks berwarna hijau.
+  </p>
+  <div>
+    <p>
+      Ini merupakan paragraf ketiga, letaknya setelah elemen gambar, tetapi
+      paragraf ini dibungkus de dalam div sehingga paragraf ini tidaka akan
+      menerapkan rule styling karena tidak memiliki induk yang sama.
+    </p>
+    <p>
+      Ini merupkan paragraf empat. Letaknya memang setelah elemen gambar dan
+      memiliki induk yang sama seperti elemen gambar, sehingga elemen ini akan
+      menerapkan rule dengan menampilkan teks berwarna hijau.
+    </p>
+  </div>
+  <p>
+    Ini merupakan paragrav empat. Letaknya memang setelah elemen gambar dan
+    memiliki induk yang sama seperti elemen gambar, sehingga elemen ini akan
+    menerapkan rule dengan menampilkan teks berwarna hijau.
+  </p>
+</html>
