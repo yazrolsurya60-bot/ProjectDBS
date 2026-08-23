@@ -1,10 +1,17 @@
 /*Rule akan ditetapkan pada elemen paragraf yang berada tepat setelah elemen img*/
 /*Adjacent Sibling Selector (+)*/
-img + p {
+/* img + p {
     color: green;
-}
+} */
 
 /*General Sibling Selector (~)*/
-img ~ p {
+/* img ~ p {
     color: red;
-}
+} */
+
+/*Child Selector (>)*/
+/* div > p {
+    background-color: yellow;
+} */
+
+/*Descendant Selector (space)*/
