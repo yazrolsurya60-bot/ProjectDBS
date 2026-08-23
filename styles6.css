@@ -1,4 +1,10 @@
 /*Rule akan ditetapkan pada elemen paragraf yang berada tepat setelah elemen img*/
+/*Adjacent Sibling Selector (+)*/
 img + p {
     color: green;
+}
+
+/*General Sibling Selector (~)*/
+img ~ p {
+    color: red;
 }
